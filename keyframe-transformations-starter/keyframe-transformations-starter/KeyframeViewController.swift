@@ -11,6 +11,5 @@ class KeyframeViewController: UIViewController {
     }
 
     @IBAction func animate(_ sender: UIButton) {
-        
     }
 }

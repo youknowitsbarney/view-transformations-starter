@@ -142,6 +142,9 @@
                                                 <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="toggleShareMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EGs-XF-eOK"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -163,11 +166,12 @@
                     <connections>
                         <outlet property="darkView" destination="VgP-ly-iVS" id="EkU-2Y-eUX"/>
                         <outlet property="menuView" destination="stj-20-Wmq" id="Ahb-Zp-3Sy"/>
+                        <outlet property="shareButton" destination="xQK-tO-HIg" id="gxo-6m-0d2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1840.8" y="130.88455772113943"/>
+            <point key="canvasLocation" x="1834" y="0.0"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Krp-3p-aYn">
